@@ -19,9 +19,9 @@ const App = () => {
     <>
       <Particles init={particlesInit} options={{ preset: "fireworks" }} />
       <div className="container">
-        <span>
+        {/* <span>
           <Typewriter words={string} loop={0} />
-        </span>
+        </span> */}
         <Countdown
           date={Date.now() + timeLeft()}
           onComplete={() =>
